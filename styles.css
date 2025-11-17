@@ -30,6 +30,11 @@ img {
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #1f232d;
+  position: sticky;
+  top: 0;
+  background-color: rgba(11, 12, 15, 0.95);
+  backdrop-filter: blur(8px);
+  z-index: 20;
 }
 
 .nav__brand {
